@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(-80deg, rgba(60, 153, 144, 0.79), rgb(32, 0, 255));
+}
+
+.contenedor {
+    width: 80%;
+    background-color: #d0fffb;
+    margin: auto;
+    padding: 5px 5px 10px 5px;
+}
+
+.present-title {
+    text-align: center;
+}
+
+.btn-testimonials-grid-section {
+    width: 25%;
+    background-color: rgb(25, 118, 210);
+    display: block;
+    border: solid #1a4c77 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    height: auto;
+    color: aliceblue;
+    padding: 5px 0px 5px 0px;
+    margin: auto;
+}
+
+.btn-testimonials-grid-section:hover {
+    background-color: rgb(17, 77, 138);
+    border: solid #11324e 2px;
+}
