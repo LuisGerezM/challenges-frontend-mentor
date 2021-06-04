@@ -150,6 +150,7 @@ img {
 /* Grid */
 .contenedor{
   display: inline-block;
+  margin-left: 1em;
 }
 
 .top-section{
