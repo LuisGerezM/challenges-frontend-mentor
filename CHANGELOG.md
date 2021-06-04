@@ -1,3 +1,7 @@
+# Terminado el diseño mobile, "small"
+### Se realizaron los cambios pertinentes para completar el desafío del "mobile-design"
+
+
 # Terminado el diseño "large"
 ### Se realizaron los cambios pertinentes para completar el desafío del "desktop-design"
 

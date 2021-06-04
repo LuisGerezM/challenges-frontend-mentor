@@ -150,10 +150,13 @@ img {
 /* Grid */
 .contenedor{
   display: inline-block;
+
+  margin-left: 1em;
 }
 
 .top-section{
   display: inline-block;
+
 }
 
 .down-section{
