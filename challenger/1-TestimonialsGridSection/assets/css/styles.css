@@ -1,57 +1,132 @@
+/* Global Values */
+:root {
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+  --light-gray: hsl(0, 0%, 81%);
+  --margin-cards-lg: 0 auto;
+  --border-cards: 1em;
+}
+
+/* -------------------------------- */
+
 * {
-    padding: 5px;
+  padding: 5px;
+  margin: auto;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 body {
-    background: linear-gradient(-80deg, rgba(60, 153, 144, 0.79), rgb(32, 0, 255));
+  background: linear-gradient(
+    -80deg,
+    rgba(60, 153, 144, 0.79),
+    rgb(32, 0, 255)
+  );
 }
 
+img {
+  border-radius: 100%;
+  margin: 0;
+}
+
+/* Grid */
 .contenedor {
-    width: 80%;
-    background-color: #d0fffb;
-    margin: auto;
-    padding: 5px 5px 10px 5px;
-    display: flex;
+  width: 90%;
+  background-color: hsl(210, 46%, 95%);
+  padding: 5px 5px 10px 5px;
+  display: flex;
+  margin: 3% auto; /* Horizontal - Vertical */
 }
 
 .left-section {
-    /* background-color: brown; */
-    width: 70%;
+  width: 82%;
 }
 
 .rigth-section {
-    background-color: pink;
-    width: 30%;
+  background-color: hsl(0, 0%, 100%);
+  width: 17.5%;
+  margin-top: 16px;
 }
 
 .top-section {
-    /* background-color: rgb(98, 192, 61);*/
-    flex-direction: row;
-    display: flex;
+  flex-direction: row;
+  display: flex;
+}
+
+.cards-border {
+  border-radius: var(--border-cards);
 }
 
 .card-top-left {
-    width: 60%;
-    background-color: crimson;
-    margin: auto;
+  width: 60%;
+  background-color: hsl(263, 55%, 52%);
 }
 
 .card-top-rigth {
-    width: 30%;
-    background-color: rgb(173, 119, 130);
+  width: 30%;
+  background-color: hsl(217, 19%, 35%);
+  margin: var(--margin-cards-lg);
 }
 
 .down-section {
-    background-color: rgb(216, 212, 6);
+  display: flex;
+  flex-direction: row;
 }
 
 .card-down-left {
-    width: 60%;
-    background-color: rgb(117, 220, 20);
-    margin: auto;
+  width: 30%;
+  background-color: hsl(0, 0%, 100%);
+  margin: var(--margin-cards-lg);
 }
 
 .card-down-rigth {
-    width: 30%;
-    background-color: rgb(173, 119, 130);
+  width: 60%;
+  background-color: hsl(219, 29%, 14%);
 }
+
+/* -------------------------------- */
+
+/* Title Cards */
+.title {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+.text-white {
+  color: var(--light-grayish-blue);
+}
+
+.text-gray-bold,
+.text-gray {
+  color: var(--Very-dark-grayish-blue);
+}
+
+/* -------------------------------- */
+
+/* person card */
+.person {
+  flex-direction: row;
+  display: flex;
+}
+
+.title-presentation {
+  margin: 0%;
+}
+
+.name {
+  font-family: "Barlow";
+  font-weight: bold;
+}
+
+.verified-graduate {
+  /*color: var(--light-gray);*/
+  color: inherit;
+  opacity: 0.5;
+}
+/* End Person */
+
+/* paragraphs inside the quotations */
+.paragraphs {
+  opacity: 0.7;
+}
+/* -------------------------------- */
