@@ -1,3 +1,6 @@
+# Diseño Terminado
+### Se realizaron los cambios pertinentes para que las cards se adapten a todas las vistas, y así completar el desafío
+
 # Terminado el diseño mobile, "small"
 ### Se realizaron los cambios pertinentes para completar el desafío del "mobile-design"
 
