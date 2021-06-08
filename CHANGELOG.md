@@ -1,3 +1,6 @@
+# 2do challenger terminado
+### Se realizaron los cambios pertinentes para completar el 2do desafío
+
 # Diseño Terminado
 ### Se realizaron los cambios pertinentes para que las cards se adapten a todas las vistas, y así completar el desafío
 
