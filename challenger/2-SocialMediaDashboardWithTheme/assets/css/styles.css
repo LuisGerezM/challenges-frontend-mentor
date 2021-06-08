@@ -1,6 +1,5 @@
 :root {
   /* Light Theme */
-
   --bg: hsl(0, 0%, 100%);
   --bg-top-color: hsl(225, 100%, 98%);
   --card-bg: hsl(227, 47%, 96%);
@@ -18,8 +17,7 @@
   transition: 0.4s;
 }
 
-/* button back to index*/
-
+/* button back to index */
 .button-back {
   width: 25%;
   display: block;
@@ -41,17 +39,6 @@
 }
 
 /* end button back to index */
-
-/* body theme */
-.body-theme.dark {
-  /*--bg: hsl(230, 17%, 14%);*/
-}
-
-.body-theme {
-  /* background: var(--bg);*/
-}
-
-/* end body theme */
 
 .separate-sm {
   display: none;
@@ -104,11 +91,6 @@ input:checked + .slider {
   background: hsl(230, 22%, 74%);
 }
 
-/*
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}*/
-
 input:checked + .slider:before {
   -webkit-transform: translateX(15px);
   -ms-transform: translateX(15px);
@@ -125,37 +107,10 @@ input:checked + .slider:before {
 }
 /* End Btn Toggle Switch */
 
-/*.prueba {
-  background-color: red;
-  width: 2em;
-  height: 16px;
-  margin-top: 5px;
-  border-radius: 2em;
-  transition: background-position 0.15s ease-in-out;
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-}
-
-.change-theme {
-  margin-left: 5px;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  margin: auto;
-  background-color: blue;
-
-}
-*/
-
 .container {
   background-color: var(--bg);
   color: var(--text);
-  /* Overview Card Headings */
   font-size: 14px !important;
-
-  /*color: hsl(230, 17%, 14%);
-  padding: 0px 100px;*/
 }
 
 .navbar {
@@ -178,8 +133,6 @@ input:checked + .slider:before {
 }
 
 .nav-subtext {
-  /* color: hsl(230, 22%, 74%); */
-  /* color: var(--form-check-input); */
   font-weight: bold !important;
 }
 
@@ -209,36 +162,10 @@ input:checked + .slider:before {
 }
 
 .border-instagram {
-  /* border-top: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(90deg, rgb(100, 91, 83) 0%, rgb(235, 82, 82) 18.23%, rgb(247, 143, 47) 34.37%, rgb(244, 193, 81) 48.96%, rgb(82, 187, 118) 66.15%, rgb(38, 165, 215) 82.29%, rgb(224, 105, 183) 100%);
-  */
-  /*
-  width: auto;
-    margin: 0.5em;
-    padding: 0.5em;
-    border: solid 0.3em;
-    border-radius: 5px;
-    background: linear-gradient(to left, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
-  */
-
   position: relative;
   padding-top: 5px;
-
-  /*border-radius: 5px;
-  border-top: solid;
-  border-color: linear-gradient(to rigth, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
-
-  border-radius: 5px;
-  border-color: -webkit-linear-gradient(
-    to right,
-    hsl(37, 97%, 70%),
-    hsl(329, 70%, 58%)
-  );*/
 }
 
-/* En CSS, ::before crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada. */
 .border-instagram::before {
   display: block;
   position: absolute;
@@ -247,11 +174,8 @@ input:checked + .slider:before {
   left: 0;
   margin: 0;
   width: 100%;
-  /*height: 3px;*/
   height: 3px;
-  /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);*/
   background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
-  /*border-radius: 860px 500px 5px 200px;*/
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
   border-bottom-left-radius: 20%;
@@ -273,13 +197,6 @@ input:checked + .slider:before {
 /* --- end edit borders cards ---/
 
 /* edit nav */
-.navbar.dark {
-  /*--color-card: hsl(228, 28%, 20%);*/
-}
-
-.navbar {
-  /* background-color: var(--color-card) !important;*/
-}
 
 .form-check-input.dark {
   --form-check-input: linear-gradient(
@@ -290,10 +207,7 @@ input:checked + .slider:before {
 }
 
 .form-check-input {
-  background: var(
-    --form-check-input
-  ) !important; /* con background NO se ve el circulito del check; con background-color no me reconoce el linear-gradient */
-
+  background: var(--form-check-input) !important;
   border: var(--form-check-input);
 }
 
@@ -301,7 +215,6 @@ input:checked + .slider:before {
 
 /* edit cards */
 .card.dark:hover {
-  /*background: hsl(228, 20%, 25%) !important;*/
   background: hsl(230, 19%, 24%) !important;
   cursor: pointer;
 }
@@ -315,7 +228,6 @@ input:checked + .slider:before {
   --primary-color-text: hsl(0, 0%, 100%);
 }
 .overview-today {
-  /* color: hsl(228, 12%, 44%); */
   color: var(--primary-color-text);
   font-weight: 700 !important;
   margin-top: 25px;
@@ -338,10 +250,6 @@ input:checked + .slider:before {
   margin-left: 8px;
 }
 
-/*.card-title.dark {
-  --text-title-card: hsl(228, 34%, 66%);
-}*/
-
 .card-title {
   font-weight: bold !important;
 }
@@ -353,13 +261,6 @@ input:checked + .slider:before {
   color: var(--secondary-color-text);
 }
 
-/*
-.follow-num {
-  font-weight: 700 !important;
-  margin-bottom: 0px;
-  font-size: 20px !important;
-}
-*/
 .follow-num {
   font-weight: 700 !important;
   margin-bottom: 0px;
@@ -461,6 +362,7 @@ input:checked:hover + .slider:hover {
 /* End colors themes */
 
 /* --- End Painting Cards --- */
+
 footer {
   background: hsl(208, 92%, 53%);
   margin-top: 5px;
@@ -476,7 +378,12 @@ footer {
   font-weight: bold !important;
 }
 
+/* Disegn mobile */
 @media screen and (max-width: 375px) {
+  .button-back {
+    width: 30%;
+  }
+
   .navbar {
     width: 100%;
     padding: 30px 10px;
@@ -524,17 +431,166 @@ footer {
   }
 
   .cards-info {
+    top: 250px;
+    padding: 0px 20px;
+  }
+}
+
+/* End Disegn mobile */
+
+/* Other mobiles */
+@media screen and (min-width: 376px) and (max-width: 461px) {
+  .button-back {
+    width: 30%;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 30px 10px;
+  }
+
+  .nav-subtext {
+    width: 200px;
+  }
+
+  .separate-sm.dark {
+    background-color: var(--secondary-color-text);
+  }
+
+  .separate-sm {
+    background-color: var(--secondary-color-text);
+    display: flex;
+    height: 5px;
+    width: 350px;
+  }
+
+  .container-fluid {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .title-nav-left {
+    width: 13em;
+  }
+
+  .slider {
+    margin-left: 47px;
+    width: 39px;
+    height: 20px;
+  }
+
+  .slider:before {
+    height: 15px;
+    width: 15px;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+  }
+
+  .cards-info {
+    top: 270px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 462px) and (max-width: 581px) {
+  .navbar {
+    width: 100%;
+    padding: 30px 90px;
+  }
+
+  .nav-subtext {
+    width: 200px;
+  }
+
+  .separate-sm.dark {
+    background-color: var(--secondary-color-text);
+  }
+
+  .separate-sm {
+    background-color: var(--secondary-color-text);
+    display: flex;
+    height: 5px;
+    width: 380px;
+  }
+
+  .container-fluid {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .title-nav-left {
+    width: 13em;
+  }
+
+  .slider {
+    margin-left: 47px;
+    width: 39px;
+    height: 20px;
+  }
+
+  .slider:before {
+    height: 15px;
+    width: 15px;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+  }
+
+  .cards-info {
+    top: 270px;
+    padding: 0px 20px;
+  }
+}
+
+/* End  Other mobiles */
+
+/* Disegn some tablets and some mobiles */
+@media screen and (min-width: 582px) and (max-width: 1107px) {
+  /* .navbar {
+    width: 100%;
+    padding: 30px 10px;
+  }*/
+
+  .separate-sm {
+    display: none;
+  }
+
+  .container-fluid {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .title-nav-left {
+    width: 13em;
+  }
+
+  .slider {
+    width: 39px;
+    height: 20px;
+  }
+
+  .slider:before {
+    height: 15px;
+    width: 15px;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+  }
+
+  .cards-info {
     top: 200px;
     padding: 0px 20px;
   }
-
-  /*.navbar{
-  width: 100%;
-  30px 10px;
 }
 
-  .cards-info {
-    padding: 75px 25px;
-  }
-*/
-}
+/* End Disegn mobile */
