@@ -7,10 +7,10 @@ body {
 }
 
 .contenedor {
-  width: 80%;
+  width: 90%;
   background-color: #d0fffb;
   margin: auto;
-  padding: 5px 5px 10px 5px;
+  padding: 5px 7px 10px 5px;
   border-radius: 15px;
 }
 
@@ -24,7 +24,6 @@ body {
   margin: auto;
   justify-content: space-around; /* pace-around COLOCA un espacio al INICO al MEDIO y al FINAL del mismo TAMAÑO */
 }
-
 
 .button {
   width: 100%;
@@ -48,7 +47,7 @@ body {
   border: solid #11324e 2px;
 }
 
-.social-media-dashboard{
+.social-media-dashboard {
   background-color: rgb(25, 173, 210);
   border: solid #1a4c77 2px;
 }
@@ -56,4 +55,14 @@ body {
 .social-media-dashboard:hover {
   background-color: rgb(17, 138, 138);
   border: solid #116568 2px;
+}
+
+.fylodk-landing-page {
+  background-color: rgb(25, 150, 233);
+  border: solid #0d5470 2px;
+}
+
+.fylodk-landing-page:hover {
+  background-color: rgb(25, 110, 167);
+  border: solid #093c50 2px;
 }

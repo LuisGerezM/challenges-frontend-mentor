@@ -1,0 +1,261 @@
+/* 
+## Colors
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+
+*/
+
+.container {
+  max-width: 1326px;
+}
+
+/* text and color type */
+.raleway-700 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.opens-sans-700 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.opens-sans-400 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.font-size {
+  font-size: 14px;
+}
+
+.neutral-color {
+  color: hsl(0, 0%, 100%);
+}
+
+.secondary-color {
+  color: hsl(217, 30%, 85%);
+}
+
+/* end text and color type */
+
+.separation {
+  margin-bottom: 100px;
+}
+
+.row,
+.col {
+  z-index: 2;
+}
+
+/* --- first row --- */
+.first-row {
+  background-color: hsl(217, 28%, 15%);
+}
+
+/* nav edit */
+.logo-img {
+  width: 150px;
+}
+
+.item-right li {
+  /* content: "✅" */
+  /* borramos el PUNTO de la LISTA */
+  list-style: none;
+}
+
+/* end nav edit*/
+
+/* top - first element */
+.img-top {
+  width: 51%;
+}
+
+.size-title-top {
+  font-size: 35px;
+}
+
+.size-paragraph-top {
+  font-size: 17px;
+}
+
+.btn-lg {
+  width: 17em;
+  border-radius: 25px;
+  font-size: 14px;
+  height: 3.5em;
+}
+
+.btn-background {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.btn-background:hover {
+  background: hsl(176, 68%, 64%);
+  border-color: hsl(176, 68%, 64%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* end top - first element */
+
+/* --- end first row --- */
+
+/* --- end second row --- */
+
+.middle-bg-color {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.second-row-card {
+  border-style: none;
+}
+
+/* --- end second row --- */
+
+/* --- end third row --- */
+.illustration {
+  width: 34em;
+}
+
+.border-third-card {
+  border-style: none;
+}
+
+.link-detail {
+  color: hsl(176, 68%, 64%);
+  /* Simulamos subrayado con pequeño espacio*/
+  display: inline-block;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  padding-bottom: 2px;
+}
+
+.link-detail:hover {
+  cursor: pointer;
+}
+
+/* --- end third row --- */
+
+/* --- fourth row --- */
+
+/* quote */
+.quotes {
+  top: 2225px;
+  z-index: 1;
+  left: 79px;
+}
+/* end quote */
+
+/* testimonials cards */
+.testimonials-bg-card {
+  background-color: hsl(219, 30%, 18%);
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 5px hsl(217, 28%, 15%);
+}
+
+.card-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.size-name-card-fourth {
+  font-size: 9px;
+  margin: 0px;
+}
+
+.size-status-card-fourth {
+  font-size: 8px;
+  margin: 0px;
+}
+
+.body-card-text {
+  font-size: 13px;
+}
+/* end testimonials cards */
+
+.separation-fourth {
+  margin-bottom: 230px;
+}
+
+/* --- end fourth row --- */
+
+/* --- fifth row --- */
+.card-fifth-row {
+  font-size: 14px;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 9px;
+  top: 2610px;
+  left: 250px;
+  width: 58%;
+  /*box-shadow: 5px 5px 5px hsl(225, 2%, 12%);*/
+  box-shadow: 7px 7px 5px rgba(17, 17, 17, 0.4);
+  z-index: 1;
+}
+
+.btn-get-started {
+  height: 3.5em;
+  width: 14em;
+  border-radius: 30px;
+  /*font-size: 14px;*/
+  font-weight: 700;
+}
+
+.input-fifth {
+  height: 3.5em;
+  border-radius: 2em;
+  border-style: hidden;
+}
+
+.input-fifth::placeholder {
+  color: hsl(217, 30%, 85%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  padding-left: 35px;
+  padding-top: 5px;
+}
+
+.font-fith{
+  font-size: 12px;
+}
+/* --- end fifth row --- */
+
+/* --- six row --- */
+.footer {
+  /* width: 100%;*/
+  height: 30em;
+  /* max-width: 1326px;*/
+  background: hsl(216, 53%, 9%);
+}
+
+.circle-social {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* color: white; */
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-left: 5px;
+  /*  background: hsl(216, 53%, 9%); */
+}
+
+/* --- end six row --- */
