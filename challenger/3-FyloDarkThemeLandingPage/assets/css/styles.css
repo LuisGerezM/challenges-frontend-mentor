@@ -20,6 +20,12 @@
 
 */
 
+p,
+img,
+button {
+  z-index: 1;
+}
+
 .container {
   max-width: 1326px;
 }
@@ -57,10 +63,6 @@
 }
 
 /* end text and color type */
-
-.separation {
-  margin-bottom: 100px;
-}
 
 .row,
 .col {
@@ -115,11 +117,23 @@
   color: hsl(0, 0%, 100%);
 }
 
+.curv-img {
+  /*width: 100%;
+  top: 730px;
+  left: 0px;
+  height: 450px;*/
+  z-index: 0;
+}
+
+.separation-first-row{
+  margin-bottom: 190px;
+}
+
 /* end top - first element */
 
 /* --- end first row --- */
 
-/* --- end second row --- */
+/* --- second row --- */
 
 .middle-bg-color {
   background-color: hsl(218, 28%, 13%);
@@ -127,6 +141,10 @@
 
 .second-row-card {
   border-style: none;
+}
+
+.separation-row{
+  margin-bottom: 100px;
 }
 
 /* --- end second row --- */
@@ -158,9 +176,9 @@
 
 /* quote */
 .quotes {
-  top: 2225px;
+  top: 2325px;
   z-index: 1;
-  left: 79px;
+  left: 93px;
 }
 /* end quote */
 
@@ -195,7 +213,7 @@
 /* end testimonials cards */
 
 .separation-fourth {
-  margin-bottom: 230px;
+  margin-bottom: 210px;
 }
 
 /* --- end fourth row --- */
@@ -205,7 +223,7 @@
   font-size: 14px;
   background-color: hsl(217, 28%, 15%);
   border-radius: 9px;
-  top: 2610px;
+  top: 2690px;
   left: 250px;
   width: 58%;
   /*box-shadow: 5px 5px 5px hsl(225, 2%, 12%);*/
@@ -235,7 +253,7 @@
   padding-top: 5px;
 }
 
-.font-fith{
+.font-fith {
   font-size: 12px;
 }
 /* --- end fifth row --- */

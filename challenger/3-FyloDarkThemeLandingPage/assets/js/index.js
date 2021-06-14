@@ -1,7 +1,7 @@
-const imgBackground = document.querySelector(".img-background");
-const img = document.querySelector(".img");
+//const imgBackground = document.querySelector(".img-background");
+const img = document.querySelector(".curv-img");
 
-let desktop = window.matchMedia("(max-width: 1441px)");
+let desktop = window.matchMedia("(max-width: 1326px)");
 let mobile = window.matchMedia("(max-width: 375px)");
 
 // asi deberia andar con css
@@ -12,41 +12,43 @@ let mobile = window.matchMedia("(max-width: 375px)");
 // imgBackground.src ='./assets/images/bg-curvy-mobile.svg'
 // console.log(imgBackground.src); // original: http://127.0.0.1:5500/challenger/3-FyloDarkThemeLandingPage/assets/images/bg-curvy-desktop.svg ;; cambiado: http://127.0.0.1:5500/challenger/3-FyloDarkThemeLandingPage/assets/images/bg-curvy-mobile.svg
 
-if (screen.width > 1441) {
-  imgBackground.src = "./assets/images/bg-curvy-desktop.svg";
-  // assign default img style
-  imgBackground.style.width = "91%";
-  img.style.top = "750px";
-  img.style.left = "95px";
+if (screen.width > 1325) {
+  img.src = "./assets/images/bg-curvy-desktop.svg";
+  // assign default img style  --> 1341 px
+  img.style.width = "98%";
+  img.style.top = "730px";
+  img.style.height = "450px";
+  img.style.left = "14px";
+  img.height= "450px";
 } else if(screen.width < 376) {
-  imgBackground.src = "./assets/images/bg-curvy-mobile.svg";
-  imgBackground.style.width = "332%";
-  imgBackground.style.height = "600px";
+  img.src = "./assets/images/bg-curvy-mobile.svg";
+  img.style.width = "332%";
+  img.style.height = "600px";
 
   img.style.top = "500px";
   img.style.left = "-50px";
 } else{
-  imgBackground.src = "./assets/images/bg-curvy-desktop.svg";
+  img.src = "./assets/images/bg-curvy-desktop.svg";
 }
 
 desktop.addEventListener("change", adaptView);
 mobile.addEventListener("change", adaptView);
 
 function adaptView(e) {
-  imgBackground.src = "";
+  img.src = "";
   // console.log(e.matches);
   // console.log(e.media);
   // console.log(e);
 
   if (e.media.includes(1441)) {
-    imgBackground.src = "./assets/images/bg-curvy-desktop.svg";
-    imgBackground.style.width = "91%";
+    img.src = "./assets/images/bg-curvy-desktop.svg";
+    img.style.width = "91%";
     img.style.top = "750px";
     img.style.left = "95px";
   } else if (e.media.includes(375)) {
-    imgBackground.src = "./assets/images/bg-curvy-mobile.svg";
-    imgBackground.style.width = "332%";
-    imgBackground.style.height = "600px";
+    img.src = "./assets/images/bg-curvy-mobile.svg";
+    img.style.width = "332%";
+    img.style.height = "600px";
 
     img.style.top = "500px";
     img.style.left = "-50px";
