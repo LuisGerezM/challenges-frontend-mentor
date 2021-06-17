@@ -65,6 +65,10 @@ function checkEmail(e) {
       emailCheck.textContent = "Please enter a valid email address";
       emailCheck.style.color = "hsl(0, 100%, 63%)";
       emailCheck.style.fontSize = "10px";
+
+      setTimeout(() => {
+        emailCheck.textContent = ""
+      }, 3000);
     }
   }
 }
