@@ -24,7 +24,7 @@ function eventListeners() {
 function sizeWindow() {
   if (screen.width < 376) {
     mobileStyle();
-  } else {
+  } else if (screen.width >= 1329){
     deskStyle();
   }
 }
@@ -48,11 +48,10 @@ function mobileStyle() {
 
 function deskStyle() {
   img.src = "./assets/images/bg-curvy-desktop.svg";
-  img.style.width = "1289px";
-  img.style.top = "735px";
+  img.style.width = "1310px";
+  img.style.top = "780px";
   img.style.height = "450px";
-  img.style.left = "38px";
-  img.height = "450px";
+  img.style.left = "28px";
 }
 
 function checkEmail(e) {
