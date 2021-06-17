@@ -366,7 +366,12 @@ input:checked:hover + .slider:hover {
 footer {
   background: hsl(208, 92%, 53%);
   margin-top: 5px;
+  margin: 5px auto;
+  padding: 5px 5px;
+  border-radius: 15px;
+  
 }
+
 .attribution {
   font-size: 12px;
   text-align: center;
