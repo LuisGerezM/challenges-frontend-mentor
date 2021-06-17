@@ -1,3 +1,6 @@
+# Subiendo 3er challenger terminado
+### Se realizaron los cambios pertinentes para que el 3der desafío esté completo tanto en vista mobile, como en escritorio
+
 # Subiendo 2do challenger limpio
 ### Se realizaron los cambios pertinentes para que el 2do desafío esté sin comentarios innecesarios
 

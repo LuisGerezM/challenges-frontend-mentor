@@ -18,9 +18,8 @@ img {
   margin: 0;
 }
 
-/* button back to index*/
-
-.button {
+/* button back to index */
+.button-back {
   width: 25%;
   display: block;
   text-align: center;
@@ -29,9 +28,18 @@ img {
   height: auto;
   color: aliceblue;
   padding: 5px;
-  margin: auto;
+  margin: 5px auto;
+  background-color: rgb(25, 118, 210);
+  border: solid #1a4c77 2px;
 }
 
+.button-back:hover {
+  background-color: rgb(17, 77, 138);
+  border: solid #11324e 2px;
+  color: aliceblue;
+}
+
+/* end button back to index */
 .testimonials-grid-section {
   background-color: rgb(25, 118, 210);
   border: solid #1a4c77 2px;
@@ -89,7 +97,7 @@ img {
 .card-top-rigth {
   width: 30%;
   background-color: hsl(217, 19%, 35%);
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 .down-section {
@@ -101,7 +109,7 @@ img {
 .card-down-left {
   width: 30%;
   background-color: hsl(0, 0%, 100%);
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 .card-down-rigth {
@@ -118,7 +126,7 @@ img {
 }
 
 .text-white {
-  color:  hsl(210, 46%, 95%);
+  color: hsl(210, 46%, 95%);
 }
 
 .text-gray-bold,
@@ -156,9 +164,33 @@ img {
 }
 /* -------------------------------- */
 
+footer {
+  background: inherit;
+  margin-top: 5px;
+  margin: auto;
+  padding: 5px 5px;
+  border-radius: 15px;
+  width: 91%;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(182, 34%, 70%);
+  font-weight: bold !important;
+}
+
 /* Diseño móvil */
 
 @media screen and (max-width: 450px) {
+  .button-back {
+    width: 30%;
+  }
+
   /* Grid */
   .contenedor {
     display: inline-block;
